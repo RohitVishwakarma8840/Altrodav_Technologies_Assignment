@@ -32,7 +32,7 @@ npm start
 or for developement 
 npm run dev 
 
-API Endpoints
+## API Endpoints
 Authentication
 Register User
 POST /api/auth/register
@@ -44,7 +44,7 @@ Body
   "password": "password123"
 }
 
-Login User
+## Login User
 POST /api/auth/login
 Body:
 
@@ -53,7 +53,7 @@ Body:
   "password": "password123"
 }
 
-Activities
+## Activities
 List All Activities
 GET /api/activities
 Response:
@@ -70,7 +70,7 @@ Response:
 ]
 
 
-Create Activity
+## Create Activity
 POST /api/activities
 Body:
 
@@ -92,7 +92,7 @@ Body:
   "userId": "user_id"
 }
 
-Get User Bookings
+## Get User Bookings
 GET /api/bookings
 Body:
 {
@@ -101,7 +101,7 @@ Body:
 
 
 
-Project Structure
+## Project Structure
 
 Backend_Assignment/
 ├── controllers/
@@ -120,7 +120,7 @@ Backend_Assignment/
 ├── package.json
 └── .env
 
-Technologies Used
+## Technologies Used
 Node.js: Backend runtime.
 Express.js: Web framework.
 MongoDB: Database for storing data.
