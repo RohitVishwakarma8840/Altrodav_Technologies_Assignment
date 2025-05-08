@@ -32,6 +32,12 @@ npm start
 or for developement 
 npm run dev 
 
+
+### Base URL
+
+`http://localhost:5000`
+
+
 ## API Endpoints
 
 ### Authentication
