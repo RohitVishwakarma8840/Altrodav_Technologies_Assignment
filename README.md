@@ -33,16 +33,20 @@ or for developement
 npm run dev 
 
 ## API Endpoints
-Authentication
-Register User
-POST /api/auth/register
-Body
 
+### Authentication
+
+#### Register User
+
+**POST** `/api/auth/register`  
+**Body:**
+```json
 {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "password123"
 }
+
 
 ## Login User
 POST /api/auth/login
@@ -53,11 +57,11 @@ Body:
   "password": "password123"
 }
 
-## Activities
-List All Activities
-GET /api/activities
-Response:
+### List All Activities
 
+**GET** `/api/activities`  
+**Response:**
+```json
 [
   {
     "_id": "activity_id",
@@ -68,6 +72,7 @@ Response:
     "time": "10:00 AM"
   }
 ]
+
 
 
 ## Create Activity
